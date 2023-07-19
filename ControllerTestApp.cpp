@@ -29,6 +29,7 @@
 #pragma comment(lib, "Imm32.lib")
 #pragma comment(lib, "Cfgmgr32.lib")
 
+#define STR_VERSION "1.1"
 
 const std::string& GetRootPath()
 {
@@ -165,11 +166,13 @@ int main()
     std::cout << "Controller test app to show joystick/gamepad/controller events." << std::endl;
     std::cout << "Press a controller buttons one by one and see if the app can detect the activity." << std::endl;
     std::cout << "Please provide the logfile for admins for closer analyzing." << std::endl;
+	std::cout << "AppVersion " << STR_VERSION << std::endl;
     std::cout << "" << std::endl;
     std::cout << "Press ESC keyboard key to close this app." << std::endl;
 	std::cout << "" << std::endl;
 
-	if (SDL_Init(SDL_INIT_JOYSTICK | SDL_INIT_GAMEPAD | SDL_INIT_VIDEO) != 0)
+	//if (SDL_Init(SDL_INIT_JOYSTICK | SDL_INIT_GAMEPAD | SDL_INIT_VIDEO) != 0)
+	if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
 	{
 		InfoLog("Failed to initialize SDL system");
 		return -1;
