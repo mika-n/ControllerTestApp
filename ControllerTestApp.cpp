@@ -29,7 +29,7 @@
 #pragma comment(lib, "Imm32.lib")
 #pragma comment(lib, "Cfgmgr32.lib")
 
-#define STR_VERSION "1.1"
+#define STR_VERSION "1.2"
 
 const std::string& GetRootPath()
 {
@@ -171,8 +171,8 @@ int main()
     std::cout << "Press ESC keyboard key to close this app." << std::endl;
 	std::cout << "" << std::endl;
 
-	//if (SDL_Init(SDL_INIT_JOYSTICK | SDL_INIT_GAMEPAD | SDL_INIT_VIDEO) != 0)
-	if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
+	if (SDL_Init(SDL_INIT_JOYSTICK | SDL_INIT_GAMEPAD | SDL_INIT_VIDEO) != 0)
+	//if (SDL_Init(SDL_INIT_EVERYTHING) != 0)
 	{
 		InfoLog("Failed to initialize SDL system");
 		return -1;
