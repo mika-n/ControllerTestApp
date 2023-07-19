@@ -29,7 +29,7 @@
 #pragma comment(lib, "Imm32.lib")
 #pragma comment(lib, "Cfgmgr32.lib")
 
-#define STR_VERSION "1.2"
+#define STR_VERSION "1.4"
 
 const std::string& GetRootPath()
 {
