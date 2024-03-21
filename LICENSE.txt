@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2023. ControllerTestApp. mika-n.
+Copyright (c) 2023-2024. ControllerTestApp. mika-n. www.rallysimfans.hu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+THERE IS NO SUPPORT ANY KIND FOR THIS APPLICATION. IF IT DOESN'T WORK THEN COULD BE
+IT IS TOO OLD TO WORK IN PRESENT DAY SYSTEMS.
+
+This app is released as an open source app and you can use and modify this app 
+or use portions of this code in another applications as long you mention in credits
+where you got the idea and code snippets. You don't have to publish the derived
+work as an open-source application, but certainly it would be highly appreciated by
+open source communiities.
