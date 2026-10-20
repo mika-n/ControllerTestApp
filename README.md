@@ -2,9 +2,13 @@
 
 A simple test application to show joystick and gamepad events using SDL3 framework.
 
+Install:
+- Download the latest package from the [Releases](https://github.com/mika-n/ControllerTestApp/releases) web page.
+- Unzip the downloaded ControllerTestApp_versionTag.zip file to any folder in your PC (for example c:\games\tools\).
+
 Usage:
 - Connect all joysticks and gamepads to PC
-- Launch this ControllerTestApp.exe
+- Launch the ControllerTestApp.exe
 - See if the console window and ControllerTestApp.txt logfile shows event activities each time you press a button or move axis on a controller.
 
 Copyright (C) 2023-2024 mika-n. All rights reserved. www.rallysimfans.hu
